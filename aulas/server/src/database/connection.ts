@@ -12,4 +12,4 @@ const db = knex({
 export default db;
 
 
-parei em 1h01min
+ parei em 1h25min

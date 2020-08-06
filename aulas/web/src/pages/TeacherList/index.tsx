@@ -1,6 +1,7 @@
 import React from 'react';
 
 import PageHeader from '../../components/PageHeader';
+import TeacherItem from '../../components/TeacherItem';
 
 import './styles.css';
 
@@ -23,9 +24,16 @@ function TeacherList() {
                     </div>
                 </form>
             </PageHeader>
+
+            <main>
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+            </main>
         </div>
     );
-    /*04/08/2020 - aprem em 01h40min */
-} /* 2h01min38seg */
+}
 
 export default TeacherList;

@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 import logoIcon from '../../assets/images/logo.svg';
 import backIcon from '../../assets/images/icons/back.svg';
 
+import './styles.css';
+
 interface PageHeaderProps {
   title: string;
 }
-
-//import './styles.css';
 
 const PageHeader: React.FC<PageHeaderProps> = (props) => {
   return (
@@ -22,7 +22,7 @@ const PageHeader: React.FC<PageHeaderProps> = (props) => {
       </div>
 
       <div className="header-content">
-        <strong>{props.title}</strong>TESTE GIT.....
+        <strong>{props.title}</strong>
       </div>
 
       {props.children}

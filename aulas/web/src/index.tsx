@@ -8,7 +8,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-/*
-parei com 1h30min
-*/

@@ -1,6 +1,5 @@
 - vamos desenvolver a estrutura web como mobile first
 - vamos utilizar o SPA (página única que é atulizada via AJAX)
-- 
 
 <h1>1º dia: ReactJs e estrutura web</h1>
 
@@ -99,10 +98,20 @@
 
   * 
 
+<h1>3º dia: Finalizando o front-end</h1>
+  - Recapitular o que criamos
+  - Estruturando página de cadastro
+  - Estilizando página de cadastro
+  - Preparando cadastro de de horários
+  - Carregando total de conexões na Landing
+  - Cadastro de novas aulas
+  - Listagem de professores
 
+  * estudar o "react-select"
+  
 
 
 
 /*
-parei com 1h30min
+parei com 0h52min da aula 03 em 07/08/2020
 */

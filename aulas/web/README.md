@@ -109,9 +109,9 @@
 
   * estudar o "react-select"
   
-
+  * para realizar a conexão de nosso front com o servidor (API externa) vamos instalar uma nova biblioteca: "yarn add axios"
 
 
 /*
-parei com 0h52min da aula 03 em 07/08/2020
+parei com 0h59min da aula 03 em 07/08/2020
 */

@@ -24,15 +24,15 @@ export default class ClassesController {
         }
 
         const timeInMinutes = convertHourToMinutes(time);
-
-        const classes = await db('classses')
+        
+        const classes = await db('classes')
           .whereExists(function() {
-            this.select('class_schedule.*')
-              .from('class_schedule')
-              .whereRaw('`class_schedule`, `class_id` = `classses`.`id`')
-              .whereRaw('`class_schedule`, `week_day` = ??', [Number(week_day)])
-              .whereRaw('`class_schedule`, `from` <= ??', [timeInMinutes])
-              .whereRaw('`class_schedule`, `to` > ??', [timeInMinutes])
+            this.select('cs.*')
+              .from('class_schedule as cs')
+              .whereRaw('`cs`.`class_id` = `classes`.`id`')
+              .whereRaw('`cs`.`week_day` = ??', [Number(week_day)])
+              .whereRaw('`cs`.`from` <= ??', [timeInMinutes])
+              .whereRaw('`cs`.`to` > ??', [timeInMinutes])
           })
           .where('classes.subject', '=', subject)
           .join('users', 'classes.user_id', '=', 'users.id')

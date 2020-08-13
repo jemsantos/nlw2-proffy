@@ -1,0 +1,15 @@
+aulas/mobile/node_modules/**/*
+aulas/mobile/.expo/*
+aulas/mobile/.vscode/*
+aulas/mobile/npm-debug.*
+aulas/mobile/*.jks
+aulas/mobile/*.p8
+aulas/mobile/*.p12
+aulas/mobile/*.key
+aulas/mobile/*.mobileprovision
+aulas/mobile/*.orig.*
+aulas/mobile/web-build/
+aulas/mobile/yarn.lock
+
+# macOS
+aulas/mobile/.DS_Store

@@ -1,4 +1,5 @@
 import { Request, Response } from 'express';
+
 import db from '../database/connection';
 
 export default class ConnectionsController {
@@ -15,9 +16,7 @@ export default class ConnectionsController {
 
         const { user_id } = request.body;
 
-        await db('connections').insert({
-            user_id
-        });
+        await db('connections').insert({ user_id });
 
         return response.status(201).json({message: 'Connection created success'});
     }

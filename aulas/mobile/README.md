@@ -24,6 +24,7 @@
 - Conectando com API:
   * Total de conexões
   * Lista de professores
+- Contato via WhatssApp
 - Adicionando e removendo favoritos
 - Listando favoritos
 - Desafios

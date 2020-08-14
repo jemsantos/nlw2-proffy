@@ -1,20 +1,21 @@
+<h1>Next Level Week, trilha Omnistack 🚀</h1>
 
-<h1>1º dia: ReactJs e estrutura web</h1>
+<h2>1º dia: ReactJs e estrutura web</h2>
 
 - Apresentando o projeto (Proffy)
 - Ambiente de desenvolvimento
 - Conceitos do ReactJS:
-  # Interfaces
-  # Construção de SPA's
-  # React / ReactJS (React DOM) / React Native / ReactTV / ReactVR (realidade virtual)
+  - Interfaces
+  - Construção de SPA's
+  - React / ReactJS (React DOM) / React Native / ReactTV / ReactVR (realidade virtual)
 - Criando o projeto
 - Limpando a estrutura
 - Explicando conceitos:
-  # index.html e div#root
-  # JSX (HTML dentro do JS)
-  # Componentes (trechos de codigos isolados para serem reutilizados)
-  # Propriedades
-  # Estado
+  - index.html e div#root
+  - JSX (HTML dentro do JS)
+  - Componentes (trechos de codigos isolados para serem reutilizados)
+  - Propriedades
+  - Estado
 - Criando estilos globais
 - Criando estrutura da landing page
 - Estilizando landing page
@@ -27,18 +28,19 @@
 - Preparando cadastro de horários
 
 
-<h1>2º dia: Back-end com Node.js</h1>
+<h2>2º dia: Back-end com Node.js</h2>
+
 - Ambiente de desenvolvimento
 - Conceitos de back-end e Node.js:
-  * Como funciona o back-end?
-  * Particularidades da API REST
-  * Por que Node.js?
+  - Como funciona o back-end?
+  - Particularidades da API REST
+  - Por que Node.js?
 - Criando o projeto
 - Configurando ambiente
 - Explicando conceitos:
-  * Rotas e recursos
-  * Métodos HTTP( POST / GET / PUT / DELETE )
-  * Parâmetros ( Request BODY / Route Params / Query Params )
+  - Rotas e recursos
+  - Métodos HTTP( POST / GET / PUT / DELETE )
+  - Parâmetros ( Request BODY / Route Params / Query Params )
 - Identificando casos de uso
 - Configurando conexão com o banco
 - Criando tabelas no banco de dados
@@ -47,7 +49,7 @@
 - Criação e total de conexões
 
 
-<h1>3º dia: Finalizando o front-end</h1>
+<h2>3º dia: Finalizando o front-end</h2>
 
 - Recapitular o que criamos
 - Estruturando página de cadastro
